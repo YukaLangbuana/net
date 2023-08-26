@@ -1,0 +1,21 @@
+# Allowlisting gitignore template for C projects prevents us
+# from adding various unwanted local files, such as generated
+# files, developer configurations or IDE-specific files etc.
+#
+
+# Ignore everything
+*
+
+# But not these files...
+!/.gitignore
+
+!*.c
+!*.h
+
+!README.md
+!LICENSE
+
+# !Makefile
+
+# ...even if they are in subdirectories
+!*/
